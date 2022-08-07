@@ -63,7 +63,11 @@ const ProductDetail: React.FC = () => {
         >
           {images.map((i, idx) => (
             <SwiperSlide key={idx} className={"h-[100%]"}>
-              <img className={"h-[100%] object-cover"} src={i} alt="image" />
+              <img
+                className={"h-[100%] w-[100%] object-cover"}
+                src={i}
+                alt="image"
+              />
             </SwiperSlide>
           ))}
         </Swiper>

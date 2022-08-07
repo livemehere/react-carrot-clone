@@ -1,0 +1,7 @@
+{
+  "name": "kongkaotalk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
